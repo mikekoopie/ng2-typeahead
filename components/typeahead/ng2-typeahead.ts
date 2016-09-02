@@ -1,7 +1,6 @@
-import {Component, Directive, Injectable, Input, Output, EventEmitter, ViewChild} from '@angular/core';
-import {FORM_DIRECTIVES, COMMON_DIRECTIVES, CORE_DIRECTIVES} from '@angular/common';
-import {NgZone, OnInit} from '@angular/core';
+// TODO: Refactor to RC6 with ngModules
 
+import {Component, OnInit, Input, Output, EventEmitter, ViewChild} from '@angular/core';
 
 @Component({
     selector: 'typeahead',
@@ -108,11 +107,7 @@ import {NgZone, OnInit} from '@angular/core';
       color: #ffffff;
     }
     `],
-    directives: [
-        ...FORM_DIRECTIVES,
-        ...COMMON_DIRECTIVES,
-        ...CORE_DIRECTIVES
-    ],
+
     providers: []
 })
 export class Typeahead implements OnInit {

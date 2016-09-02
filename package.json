@@ -51,15 +51,15 @@
   "homepage": "https://github.com/brinkmanjg/ng2-typeahead",
   "dependencies": {},
   "peerDependencies": {
-    "@angular/common": "^2.0.0-rc.2",
-    "@angular/core": "^2.0.0-rc.2"
+    "@angular/common": "^2.0.0-rc.6",
+    "@angular/core": "^2.0.0-rc.6"
   },
   "devDependencies": {
-    "@angular/common": "^2.0.0-rc.2",
-    "@angular/compiler": "^2.0.0-rc.2",
-    "@angular/core": "^2.0.0-rc.2",
-    "@angular/platform-browser": "^2.0.0-rc.2",
-    "@angular/platform-browser-dynamic": "^2.0.0-rc.2",
+    "@angular/common": "^2.0.0-rc.6",
+    "@angular/compiler": "^2.0.0-rc.6",
+    "@angular/core": "^2.0.0-rc.6",
+    "@angular/platform-browser": "^2.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.6",
     "async": "1.5.2",
     "bootstrap": "3.3.6",
     "codecov": "1.0.1",
@@ -104,7 +104,7 @@
     "raw-loader": "0.5.1",
     "reflect-metadata": "0.1.2",
     "require-dir": "0.3.0",
-    "rxjs": "5.0.0-beta.6",
+    "rxjs": "5.0.0-beta.11",
     "source-map-loader": "0.1.5",
     "systemjs-builder": "0.15.19",
     "ts-loader": "0.8.2",
@@ -113,7 +113,9 @@
     "typings": "0.8.1",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1",
-    "zone.js": "0.6.12"
+    "zone.js": "0.6.17"
   },
-  "contributors": []
+  "contributors": [
+    "Mike Koopmanschap <mikekoopmanschap@gmail.com>"
+  ]
 }
